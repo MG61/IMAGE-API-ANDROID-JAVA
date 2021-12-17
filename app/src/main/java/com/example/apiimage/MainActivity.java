@@ -21,18 +21,60 @@ import com.bumptech.glide.Glide;
 
 
 public class MainActivity extends AppCompatActivity {
-    String mImageAddress =
-        "https://kinopoisk-ru.clstorage.net/14vDC9252/2fb98faPwT_j/3kCDcHhxmVo8H4yfBIRZM0Zz9ID366wxPkIF1wh8ilyyF2KtXRBjetH59LhJTv7H4Upm8_YYJ0_fn11ySwX7xv8w9oFc8Wxf2KtZn9FRePLTk8CRA26YcO93ADL6j4jfkIBAzq-SYbzFneDpPMv7I-V600ezjKM-mLzMYEpTb-GfIbLCHKNZq2vvLCzGdZvU9PN0lqX5L4TuYFen2y1KLABhIs-98TNcF65zvc6KKSGG2HJW4hiybSoP6gA542wivyBg4a-jOblKjjzvVdZZFrSBZVbn6I8k_OE0Zmm-6A-wwOC9rbMD3LSt4s_tecihNEhTxvB4sS8KDGgzGlOMIK-Ag8Leofn7u30fDNQVKjbWo1WXJYl9x74i13WaPWudAFKxL86Rsk4WrKEtDgur8Fdrs0XRuHDvG3-5QqmQL-MscNHQPPMKSXisjDxF11nVtwAHpMbpbTf9w5cFaO1pv1Jwk0z-kwGcdd8A_Q1qGyEm-hFkA1kxXXpsevAL87wS_eIAEw7x6aoIHLy9ZWdaJVeApLalur1X_LH3JXvf2r1R4PCv7ELgPAWt8d0OSahChOuxpxIIA20K7Big-YKPse6QwxDP8Mt5267cTbW0yOfl8NcG5Kisdq-BtEe6Lpjdc4OQDB5Tkr9nz5H8vqr4oec4cXexKTJ8yz4o4-mB_JF-UsPDzPHaeoqsLO_ENQnVNCEHVFeJ3wesQfVUWV6JT0GT4u9NIQFcdP-TD446yXH2GPLH4AkTX3p9KeKLQ63jX3EDMgwyyng4Tu4_p2cKpWaiN7ZlO133TpPVl5mcWv0wEeFenEJxHVWdEX88KOuhZGqh5bMLcl067XpwCgI_A-_gQXFdkimJ-97O_mZUSgdUodW0N0tdRJ9y5_Zq7rqOEMDCXz0zsFzkLAKdnRnLgWYrE-TzWOJNaa-4ARlSXMNvoGMxzZIr2inM7P2nlNjltkPntadI_zWs4mZmuyypzZDxEp8-MQFPtd7Bz5_rSJN3WpDkwpkST6t8OgPrA43RX3OC865xaamIPo4eZ7R5FvYQJSalKF81H-KkF5jcON9gUzEujCMR3VYs8t5NOUmCtouCtmA4E23pXEvB23NfIpxQUwGfs-nZuo6c7Gbm-qXUsWbEZgrflP3yxJRaTguckAEhr-_Ck-yVTFLefOobI3Y6sYYRyMLdS20aE2oAvEJNcIDRjMJYu4g9POyHVkj2NcMldTSKvaZ-w7Xm-207_1PCsO1OEgOvJJwy3I4be5OUSnEEI4pjPGpPeMCLsZ-BTyIDAi4gKpiJ7OyctYUIxWeA1VeX2twGbdJ3Rymeaj6Dk4IvT-FyPnfMgO6MSQvz9PixZuP7UZ1Lz9vzeAAfIK9wE9LfENuKCl08nqYU6TeUopZlJgl9Rm5wBjVI3Jh-E9HQntyREz4UXkMe_iorgFaJY8SxKdCOiX1YMJvyHeH9I4DQLfOKCFmtH4zUp0kl5xL09rfLnZWcMlYm2a6rbdOQs2yPQRGuZB_Sn_7qKJEHGoP1kXvi3bntavApYB-TLYJigMziCluJzX2NhuQoNXeB1oaE2u1kfII15IuM6E1iIKM_fAMB7jfdwX386GjhdsiipvOY8V67b9qAqFIP016iINEMEttKCa4MLVakq4fUM-fnFNmNZnwBp9TqT2g_UNDxffwhIo7H3ID8XxvL0jQ5sLbz-FEPWy-IAegTH6JsIrAgHDG4mygcnn10pEokllFltqVbPhX-UhW0a-34jXLz4B09UFHtFNxz3K35WpI2aIHkU_tC3ynPqpCbce0T7kBzA4zSCShazF6dFqRIF9Xwl9eX-32nPjO1Bmm_CI6iMjEMjzIwbQRNo89sayrxlxmiVECYMz7abClg25J-Yr8hgRF-sOn6SH8MXtaWSAXX8ibHBSuf5b9iBAbbT_geAuKBby5iMH91j4CMT1nZQBbqMkajSUEvSz2a8wgjTKK90NBhjwDqe5nerg2XZ4hlRLN1NyV5DTd8ozVlCE7Zr7Mz8u_NsZNtpX-T_N8re4BWWmJUwknBPKjvi3LKoz2TjCAS8j7wyliLjE4chEeoR4czFZb3aM-FzeK1JNvsCozR8OBdfFLhPYXuAN8d69rABAryplFoIy1ZL4vi6BENk39z03N-8duKKBy8L2QVOyXUMjS1Z4pu1q9Th5co7JvdUQGA3Z9hIFxV_HOPTwvIwVRJEFZDWXINagwp4iqhDZDvc5CxLKB7WCvMPx5nlGin14P0htW4zlRPgAVlW0zYfiIRcw9OETMe1I3w_5xLW1FGWYNlIgniTTv8CzCLUw5hnAPSMi5zCWvY3g59B6UoVwaypGa2mu7ln6BGVxjuSj2jADG-LqLjr4SPEc-uuTiRdolzVKMbUj0qPitgG4Fusmxx0LLe42gaWo5MPXVnGyT2o_WFV-qthz2Dl_eJbAp8InOBb9_RUz-nvBPPPmupQAYIA_SxiOF_22-ZElvxDCOPwmLzzZO7yAtdHa9lRNoHNMKl5YVZHuS-AOZHib07TgPjkIz8g7AfJM5C3Uy4CpOUOXJGQysxT9jeSJELIB7RbGESYe-CyXkqjl8txrUqR-bRdaT1K7_EnuHUVRm8uj2SYNEejRFSPBQcAx8eSXpj5isTRgMrcF_a79iiyDMO8w-w8yEfEfoaq_yN_2a2yuXF8fe3B_pdRawiRiZr_0mNsJDA391DAD6nvME__fmr0iao8JbBaHEPGg9YUygQTsPsUZCSTPIZSdhc7S31ZNnkJnN1JIU5vZbOIkeUmBzLb9JTMz3vskBNB2xhrF9ZmqOFCBFXw-oQDMt9-gBqQE2hLnBxwu5hG3mbr15sh7V4l_cwtaQ3Wz8HHlGWltk8Kp2jgXJ9XjOxzYafwU-tCQjStspSxrBLMt_YfLghOZAMka_ScBNt4svpWuzurMWEqnXmI_flF-heRY_zxyTL3OpdUlNSvLyRAL60vnH9LInL4_YZINbCGACNI";
+    ImageView kartin;
+    String put;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        kartin = findViewById(R.id.imageView2);
+
+        new JokeLoader().execute();
     }
 
-    public void Onclick1(View view) {
-        ImageView mImageView = findViewById(R.id.imageView2);
-        Glide.with(MainActivity.this)
-                .load(mImageAddress)
-                .into(mImageView);
+    private class JokeLoader extends AsyncTask<Void, Void, Void>
+    {
+        @Override
+        protected Void doInBackground(Void... voids) {
+            String hrefAPI = "https://rickandmortyapi.com/api/character/516";
+            String jsonString = getJson(hrefAPI);
+            try {
+                JSONObject jsonObject = new JSONObject(jsonString);
+                put = jsonObject.getString("image");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid)
+        {
+            super.onPostExecute(aVoid);
+
+            Glide.with(MainActivity.this).load(put).into(kartin);
+        }
+    }
+
+    private String getJson(String href)
+    {
+        String data = "";
+
+        try {
+            URL url = new URL(href);
+            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+            if (urlConnection.getResponseCode() == HttpURLConnection.HTTP_OK);
+            {
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream(), "utf-8"));
+                data = bufferedReader.readLine();
+                urlConnection.disconnect();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return data;
     }
 }
